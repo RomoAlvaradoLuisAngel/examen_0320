@@ -2,7 +2,7 @@ import flet as ft
 def main(page: ft.Page):
     page.title="Examen final - Registro de estudiantes"
     page.vertical_alignment=ft.MainAxisAlignment.CENTER
-    page.add(ft.Text(value="Registro de participantes", size=25))
+    page.add(ft.Text(value="Registro de participantes", size=25, italic=False, text_align=ft.TextAlign.CENTER))
     
     nombre = ft.TextField(
         value="",
