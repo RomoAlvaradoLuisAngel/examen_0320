@@ -1,3 +1,4 @@
+#Romo Alvarado Luis Angel - 23308060610320 - 6D
 import flet as ft
 def main(page: ft.Page):
     page.title="Examen final - Registro de estudiantes"
