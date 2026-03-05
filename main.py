@@ -73,15 +73,15 @@ def main(page: ft.Page):
     ft.Divider(height=10, thickness=2, color=ft.Colors.GREY_400)
     ft.VerticalDivider(width=10, thickness=2, color=ft.Colors.GREY_400)
     
-    """page.add(ft.Text("--Ficha del participante--"))
-    ft.Text= value="Nombre: " + nombre + "\n",
+    page.add(ft.Text("--Ficha del participante--"))
+    """ft.Text= value="Nombre: " + nombre + "\n",
     ft.Text(value="Correo electronico: " + correo + "\n"),
     ft.Text(value="Taller: " + taller + "\n"),
     ft.Text(value="Pago: " + pago + "\n"),
     ft.Text(value="Requerimientos: " + requerimientos + "\n"),
     ft.Text(value="Experencia: " + experiencia + "\n")"""
     
-    ft.ListView(
+    """ ft.ListView(
     controls=[
         ft.Text(str("Nombre: " +nombre + "\n")),
         ft.Text(str("Correo electronico: " + correo + "\n")),
@@ -90,5 +90,6 @@ def main(page: ft.Page):
         ft.Text(str("Requerimientos: " + requerimientos + "\n")),
         ft.Text(str(int("Experiencia: " + experiencia + "\n")))
         ],
-    )    
+    )   """ 
+    page.add(ft.Text("--Gracias por su registro--"))
 ft.run(main)
