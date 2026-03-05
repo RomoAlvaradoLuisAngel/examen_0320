@@ -1,7 +1,7 @@
 [project]
 name = "examen-0320"
 version = "0.1.0"
-description = "Examen primera unidad sobre el registro de usuario - Romo Alvarado Luis Angel - 23308060610320"
+description = "Examen primera unidad sobre el registro de usuario - Romo Alvarado Luis Angel - 23308060610320 - 6D"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
